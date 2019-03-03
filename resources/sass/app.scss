@@ -11,6 +11,15 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 @import '~bootstrap-vue/dist/bootstrap-vue.css';
 
+@import '~simple-line-icons/css/simple-line-icons.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Coreui
+@import '~@coreui/coreui/dist/css/coreui.min.css';
+@import "custom";
+@import "~@coreui/coreui/scss/coreui";
+
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

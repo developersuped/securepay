@@ -14,7 +14,7 @@
         {{--<notifications group="noty">
         </notifications>--}}
 
-        <encabezado></encabezado>
+        <encabezado :nav="menu" :user="user"></encabezado>
     </div>
     <script src="{{asset('/js/app.js')}}"></script>
 </body>

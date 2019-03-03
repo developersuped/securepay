@@ -9,9 +9,11 @@
             </b-link>
             <SidebarToggler class="d-md-down-none" display="lg"/>
             <b-navbar-nav class="ml-auto">
-
+                <b-nav-item-dropdown right>
+                    <template slot="button-content"><em>{{user}}</em></template>
+                    <b-dropdown-item href="#" @click="salir">Salir</b-dropdown-item>
+                </b-nav-item-dropdown>
             </b-navbar-nav>
-            <!--<span v-text="user.name"></span>-->
         </AppHeader>
         <div class="app-body">
             <AppSidebar fixed>
@@ -24,20 +26,19 @@
             <main class="main">
                 <div class="container-fluid">
                     <div style="margin-top:15px;">
-                        <!--<router-view ref="rutas"></router-view>-->
-                        <h1>HOla mundo somos los reyes</h1>
+                        <router-view ref="rutas"></router-view>
                     </div>
                 </div>
             </main>
         </div>
         <TheFooter>
             <div>
-                <a href="https://coreui.io">IBW</a>
-                <span class="ml-1">&copy;2018</span>
+                <a href="https://coreui.io">Uped</a>
+                <span class="ml-1">&copy;2019</span>
             </div>
             <div class="ml-auto">
-                <span class="mr-1">Powered by</span>
-                <a href="https://coreui.io">CoreUI for Vue</a>
+                <span class="mr-1">Developers Uped</span>
+                <a href="https://coreui.io">Uped</a>
             </div>
         </TheFooter>
     </div>
@@ -76,15 +77,17 @@
             SidebarMinimizer
         },
         props: {
-            nav: {}
+            nav: {},
+            user:''
         },
         data() {
-            //return {user}
+
         },
-        computed: {
-            /*name() {
-                return this.$route.name
-            }*/
-        }
+        methods:{
+            salir(){
+                callHttp('/logout',{});
+                window.location.replace("/");
+            }
+        },
     }
 </script>

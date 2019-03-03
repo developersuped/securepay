@@ -3,21 +3,32 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+
 import BootstrapVue from 'bootstrap-vue';
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter);
 
 Vue.use(BootstrapVue);
 
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
-
-//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
 require("../vue/index");
 
-
-const app = new Vue({
-    el: '#app',
+callHttp('/menu',{}).then(data=>{
+    console.log(data);
+    console.log(data.rutas.routes);
+    window.app = new Vue({
+        el: '#app',
+        router: new VueRouter({
+            /*  linkActiveClass: "active",*/
+            linkExactActiveClass: "active",
+            routes: data.rutas.routes
+        }),
+        data:()=>({
+            menu:data.menu,
+            user:data.user
+        })
+    });
 });
 
-
-require('./scripts/index');
+require('./scripts/polyfill');
+require('./scripts/alerts');

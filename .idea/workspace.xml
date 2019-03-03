@@ -2,543 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b844ee-e4f7-4ebd-bb6d-cfbb7098f5cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/images/icons/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ae.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/af.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/al.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/am.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/aq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/as.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/at.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/au.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/aw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ax.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/az.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/br.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/by.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/bz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ci.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/co.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/cz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/dj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/dk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/dm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/do.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/dz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ec.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/eg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/eh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/er.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/es-ct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/es.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/et.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/eu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/fi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/fj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/fk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/fm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/fo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ga.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gb-eng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gb-nir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gb-sct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gb-wls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/gy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/hk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/hm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/hn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/hr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ht.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/hu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/id.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/il.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/im.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/io.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/iq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/is.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/je.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/jm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/jo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/jp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ki.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/km.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/kz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/la.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/li.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/lv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ly.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/me.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ml.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/my.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/mz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/na.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/nc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/nf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ni.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/nl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/np.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/nr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/nu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/nz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/om.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/pw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/py.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/qa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/re.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/rs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/rw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/se.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/si.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/so.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/st.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/sz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/td.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/th.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/to.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/tz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ua.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/um.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/un.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/uy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/uz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/va.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/vc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ve.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/vg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/vi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/vn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/vu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/wf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/ye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/za.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/zm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/1x1/zw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ae.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/af.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/al.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/am.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/aq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/as.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/at.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/au.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/aw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ax.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/az.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/br.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/by.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/bz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ci.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/co.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/cz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/dj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/dk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/dm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/do.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/dz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ec.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ee.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/eg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/eh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/er.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/es-ct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/es.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/et.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/eu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/fi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/fj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/fk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/fm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/fo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ga.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gb-eng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gb-nir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gb-sct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gb-wls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/gy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/hk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/hm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/hn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/hr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ht.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/hu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/id.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/il.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/im.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/io.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/iq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/is.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/je.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/jm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/jo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/jp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ki.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/km.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ky.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/kz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/la.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/li.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/lv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ly.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/me.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ml.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/my.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/mz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/na.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/nc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/nf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ni.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/nl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/np.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/nr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/nu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/nz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/om.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/pw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/py.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/qa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/re.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/rs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/rw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/se.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/si.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/so.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/st.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/sz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/td.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/th.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tj.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/to.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/tz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ua.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/um.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/un.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/us.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/uy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/uz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/va.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/vc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ve.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/vg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/vi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/vn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/vu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/wf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/ye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/za.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/zm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/vendor/flag-icon-css/flags/4x3/zw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/brand/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/brand/sygnet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/defaultRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/defaultRouters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/shared.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vue/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vue/shared/DefaultAside.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vue/shared/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vue/shared/prueba.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/securepay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/scripts/alerts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/scripts/notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/scripts/polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/adminlte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/vue/shared/inicio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/23225d7f-6c07-4021-80f7-e7d7a77734d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/23225d7f-6c07-4021-80f7-e7d7a77734d6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/scripts/shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/scripts/template.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/vue/shared/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vue/shared/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -571,184 +72,121 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="socialRed: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="socialRed: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            <state relative-caret-position="570">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#1683#1991#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/vue/shared/inicio.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#b-card#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b-card#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b-card#2;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="167">
+              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+              <folding>
+                <element signature="e#45#81#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin</OriginalElement>
-              <nodes>
-                <node x="536.625" y="23.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol</node>
-                <node x="202.00000000000006" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno</node>
-                <node x="753.625" y="0.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina</node>
-                <node x="722.625" y="472.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra</node>
-                <node x="0.0" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable</node>
-                <node x="623.0" y="703.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra</node>
-                <node x="76.75000000000006" y="495.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono</node>
-                <node x="304.50000000000006" y="472.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta</node>
-                <node x="500.87500000000006" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario</node>
-                <node x="370.50000000000006" y="703.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta</node>
-                <node x="493.62500000000006" y="461.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto</node>
-                <node x="895.375" y="242.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor</node>
-                <node x="724.375" y="265.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno">
-                  <point x="-38.75" y="-84.5" />
-                  <point x="343.25000000000006" y="436.0" />
-                  <point x="329.50000000000006" y="436.0" />
-                  <point x="42.5" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto">
-                  <point x="-53.0" y="-84.5" />
-                  <point x="676.0" y="678.0" />
-                  <point x="650.375" y="678.0" />
-                  <point x="52.25" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario">
-                  <point x="38.75" y="-84.5" />
-                  <point x="420.75000000000006" y="436.0" />
-                  <point x="543.375" y="436.0" />
-                  <point x="-42.5" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta">
-                  <point x="-50.25" y="-84.5" />
-                  <point x="420.75000000000006" y="678.0" />
-                  <point x="382.00000000000006" y="678.0" />
-                  <point x="0.0" y="84.5" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto">
-                  <point x="50.25" y="-84.5" />
-                  <point x="521.25" y="678.0" />
-                  <point x="545.875" y="678.0" />
-                  <point x="-52.25" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable">
-                  <point x="-45.5" y="-61.5" />
-                  <point x="122.25000000000006" y="436.0" />
-                  <point x="91.0" y="436.0" />
-                  <point x="0.0" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno">
-                  <point x="45.5" y="-61.5" />
-                  <point x="213.25000000000006" y="436.0" />
-                  <point x="244.50000000000006" y="436.0" />
-                  <point x="-42.5" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario">
-                  <point x="-42.5" y="-84.5" />
-                  <point x="765.125" y="436.0" />
-                  <point x="628.375" y="436.0" />
-                  <point x="42.5" y="96.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol">
-                  <point x="-37.75" y="-50.0" />
-                  <point x="762.125" y="194.0" />
-                  <point x="684.375" y="194.0" />
-                  <point x="49.25" y="61.5" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor">
-                  <point x="42.5" y="-84.5" />
-                  <point x="850.125" y="436.0" />
-                  <point x="986.875" y="436.0" />
-                  <point x="0.0" y="73.0" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina">
-                  <point x="37.75" y="-50.0" />
-                  <point x="0.0" y="84.5" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra">
-                  <point x="53.0" y="-84.5" />
-                  <point x="782.0" y="678.0" />
-                  <point x="807.625" y="678.0" />
-                  <point x="0.0" y="84.5" />
-                </edge>
-                <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol">
-                  <point x="0.0" y="-96.0" />
-                  <point x="-49.25" y="61.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7035874439461881" x="401.1089866156789" y="321.1089866156789" />
-              <SelectedNodes>
-                <node>23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/scripts/index.js">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/vue/shared/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="251">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+              <folding>
+                <element signature="e#57#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -771,16 +209,27 @@
       <list>
         <option value="$PROJECT_DIR$/resources/sass/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/resources/vue/shared.js" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/vue/index.js" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/vue/shared/prueba.vue" />
-        <option value="$PROJECT_DIR$/resources/vue/shared/index.js" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql" />
-        <option value="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Utils.php" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/resources/js/scripts/shared.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql" />
+        <option value="$PROJECT_DIR$/resources/vue/shared/index.js" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/vue/shared/inicio.vue" />
       </list>
     </option>
   </component>
@@ -875,7 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -892,19 +340,20 @@
               <item name="securepay" type="b2602c69:ProjectViewProjectNode" />
               <item name="securepay" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="securepay" type="b2602c69:ProjectViewProjectNode" />
               <item name="securepay" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -919,11 +368,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/js/scripts" />
+      <recent name="$PROJECT_DIR$/resources/sass" />
       <recent name="$PROJECT_DIR$/resources/js" />
+      <recent name="$PROJECT_DIR$/resources/js/scripts" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/vue/shared" />
-      <recent name="$PROJECT_DIR$/resources/js/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -955,22 +404,47 @@
       <option name="presentableId" value="Default" />
       <updated>1551494796719</updated>
       <workItem from="1551494798020" duration="6722000" />
-      <workItem from="1551542232310" duration="8203000" />
+      <workItem from="1551542232310" duration="8952000" />
+      <workItem from="1551554551825" duration="20118000" />
+      <workItem from="1551577119221" duration="5300000" />
+      <workItem from="1551582469260" duration="6412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14925000" />
+    <option name="totallyTimeSpent" value="47504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="34" width="1372" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.43648207" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -983,11 +457,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.43648207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -996,25 +471,9 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2745" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/menuPrincipal.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/resources/sass/style.css" />
+    <entry file="file://$PROJECT_DIR$/resources/js/components/menuPrincipal.vue" />
     <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1022,248 +481,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared.js" />
     <entry file="file://$PROJECT_DIR$/resources/vue/shared/DefaultAside.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared/prueba.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#1683#1991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/scripts/notify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/scripts/shared.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/scripts/alerts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/scripts/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/scripts/notify.js" />
+    <entry file="file://$PROJECT_DIR$/resources/js/scripts/bootstrap.min.js" />
     <entry file="uml://DATABASE/23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>DATABASE</ID>
           <OriginalElement>23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin</OriginalElement>
           <nodes>
-            <node x="536.625" y="23.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol</node>
-            <node x="202.00000000000006" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno</node>
-            <node x="753.625" y="0.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina</node>
-            <node x="722.625" y="472.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra</node>
-            <node x="0.0" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable</node>
-            <node x="623.0" y="703.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra</node>
-            <node x="76.75000000000006" y="495.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono</node>
-            <node x="304.50000000000006" y="472.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta</node>
-            <node x="500.87500000000006" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario</node>
-            <node x="370.50000000000006" y="703.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta</node>
-            <node x="493.62500000000006" y="461.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto</node>
-            <node x="895.375" y="242.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor</node>
-            <node x="724.375" y="265.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno">
-              <point x="-38.75" y="-84.5" />
-              <point x="343.25000000000006" y="436.0" />
-              <point x="329.50000000000006" y="436.0" />
-              <point x="42.5" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto">
-              <point x="-53.0" y="-84.5" />
-              <point x="676.0" y="678.0" />
-              <point x="650.375" y="678.0" />
-              <point x="52.25" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario">
-              <point x="38.75" y="-84.5" />
-              <point x="420.75000000000006" y="436.0" />
-              <point x="543.375" y="436.0" />
-              <point x="-42.5" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta">
-              <point x="-50.25" y="-84.5" />
-              <point x="420.75000000000006" y="678.0" />
-              <point x="382.00000000000006" y="678.0" />
-              <point x="0.0" y="84.5" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto">
-              <point x="50.25" y="-84.5" />
-              <point x="521.25" y="678.0" />
-              <point x="545.875" y="678.0" />
-              <point x="-52.25" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable">
-              <point x="-45.5" y="-61.5" />
-              <point x="122.25000000000006" y="436.0" />
-              <point x="91.0" y="436.0" />
-              <point x="0.0" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno">
-              <point x="45.5" y="-61.5" />
-              <point x="213.25000000000006" y="436.0" />
-              <point x="244.50000000000006" y="436.0" />
-              <point x="-42.5" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario">
-              <point x="-42.5" y="-84.5" />
-              <point x="765.125" y="436.0" />
-              <point x="628.375" y="436.0" />
-              <point x="42.5" y="96.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol">
-              <point x="-37.75" y="-50.0" />
-              <point x="762.125" y="194.0" />
-              <point x="684.375" y="194.0" />
-              <point x="49.25" y="61.5" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor">
-              <point x="42.5" y="-84.5" />
-              <point x="850.125" y="436.0" />
-              <point x="986.875" y="436.0" />
-              <point x="0.0" y="73.0" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina">
-              <point x="37.75" y="-50.0" />
-              <point x="0.0" y="84.5" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra">
-              <point x="53.0" y="-84.5" />
-              <point x="782.0" y="678.0" />
-              <point x="807.625" y="678.0" />
-              <point x="0.0" y="84.5" />
-            </edge>
-            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol">
-              <point x="0.0" y="-96.0" />
-              <point x="-49.25" y="61.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7035874439461881" x="401.1089866156789" y="321.1089866156789" />
-          <SelectedNodes>
-            <node>23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7035874439461881" x="760.0" y="236.0" />
+          <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/scripts/index.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/scripts/alerts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3540">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/adminlte.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/loader.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@coreui/vue/dist/coreui-vue.esm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="2648" column="59" selection-start-line="2648" selection-start-column="51" selection-end-line="2648" selection-end-column="59" />
+          <folding>
+            <element signature="e#2772#2823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-964">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#23#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/prueba.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/scripts/shared.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="251">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <element signature="e#57#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/inicio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#b-card#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b-card#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b-card#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
