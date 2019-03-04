@@ -35,8 +35,10 @@ class HomeController extends Controller
         $menu=[];
         $rutas=[];
         try{
-            $sql="select codigo, nombre name, url, icono icon, template from pagina where estado=1 and padre is null;";
-            $data=DB::select($sql);
+
+            $user=Auth::user();
+            $sql="select distinct p.codigo, p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo = rp.pagina join rol r on rp.rol = r.codigo where rol=? and p.estado=1 and p.padre is null;";
+            $data=DB::select($sql,[$user->rol]);
 
             foreach ($data as $h){
 
@@ -47,7 +49,7 @@ class HomeController extends Controller
                     ]
                 ];
 
-                $hijos=DB::select('select nombre name, url, icono icon, template from pagina where padre=? and estado=1;',[$h->codigo]);
+                $hijos=DB::select('select p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo =rp.pagina join rol r on r.codigo=rp.rol where padre=? and p.estado=1 and r.codigo=?;',[$h->codigo, Auth::id()]);
 
                 foreach ($hijos as $row){
 
@@ -67,6 +69,13 @@ class HomeController extends Controller
                 $menu[]=$h;
             }
             $user=Auth::user();
+
+            $rutas['routes'][]=[
+                'path'=>'/perfil',
+                'component'=>[
+                    'template'=>'<perfil></perfil>'
+                ]
+            ];
 
             return [
                 'codigo'=>200,

@@ -24,3 +24,5 @@ Route::post('/menu', 'HomeController@menu');
 
 
 Route::get('/salir', 'LoginController@salir');
+
+Route::post('/perfil', 'user@perfil');

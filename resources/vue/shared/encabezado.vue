@@ -10,7 +10,10 @@
             <SidebarToggler class="d-md-down-none" display="lg"/>
             <b-navbar-nav class="ml-auto">
                 <b-nav-item-dropdown right>
-                    <template slot="button-content"><em>{{user}}</em></template>
+                    <template slot="button-content">
+                        <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;" alt="Center image" rounded="circle"/>
+                        <em>{{user}}</em></template>
+                    <b-dropdown-item @click="verperfil()">Perfil</b-dropdown-item>
                     <b-dropdown-item href="#" @click="salir">Salir</b-dropdown-item>
                 </b-nav-item-dropdown>
             </b-navbar-nav>
@@ -87,6 +90,9 @@
             salir(){
                 callHttp('/logout',{});
                 window.location.replace("/");
+            },
+            verperfil(){
+                this.$router.push('perfil');
             }
         },
     }

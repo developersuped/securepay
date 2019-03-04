@@ -2,44 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b844ee-e4f7-4ebd-bb6d-cfbb7098f5cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/securepay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/scripts/polyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/adminlte.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vue/shared/inicio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/vue/usuario/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/vue/usuario/perfil.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/23225d7f-6c07-4021-80f7-e7d7a77734d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/23225d7f-6c07-4021-80f7-e7d7a77734d6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/scripts/shared.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/scripts/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/vue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vue/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vue/shared/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vue/shared/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/vue/shared/prueba.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,88 +47,16 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="socialRed: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="socialRed: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/vue/shared/inicio.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#b-card#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b-card#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b-card#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-              <folding>
-                <element signature="e#45#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="129">
+              <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -161,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="147">
+              <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -171,10 +74,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/vue/usuario/perfil.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/vue/shared/inicio.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#b-card#0;n#b-cols#2;n#b-row#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <folding>
+                <element signature="e#23#63#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#b-img#0;n#template#0;n#b-nav-item-dropdown#0;n#b-navbar-nav#0;n#AppHeader#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/vue/usuario/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -182,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="185">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="e#57#98#0" expanded="true" />
               </folding>
@@ -196,8 +166,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -209,9 +179,7 @@
       <list>
         <option value="$PROJECT_DIR$/resources/sass/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/resources/vue/shared.js" />
-        <option value="$PROJECT_DIR$/resources/vue/index.js" />
         <option value="$PROJECT_DIR$/resources/vue/shared/prueba.vue" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -220,16 +188,25 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Utils.php" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/resources/js/scripts/shared.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql" />
         <option value="$PROJECT_DIR$/resources/vue/shared/index.js" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/vue/shared/inicio.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/usuario.php" />
+        <option value="$PROJECT_DIR$/app/models/usuario.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/resources/vue/shared/perfil.vue" />
+        <option value="$PROJECT_DIR$/resources/vue/usuario/index.js" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/resources/vue/index.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/user.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/vue/usuario/perfil.vue" />
+        <option value="$PROJECT_DIR$/resources/vue/shared/encabezado.vue" />
       </list>
     </option>
   </component>
@@ -324,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,40 +309,22 @@
               <item name="securepay" type="b2602c69:ProjectViewProjectNode" />
               <item name="securepay" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="securepay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securepay" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="securepay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securepay" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="securepay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securepay" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../proyectoLaravel/feria2019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="database.sql.templating" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -408,17 +368,18 @@
       <workItem from="1551554551825" duration="20118000" />
       <workItem from="1551577119221" duration="5300000" />
       <workItem from="1551582469260" duration="6412000" />
+      <workItem from="1551658594800" duration="17879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47504000" />
+    <option name="totallyTimeSpent" value="66184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="34" width="1372" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -433,7 +394,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.43648207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -468,67 +429,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/font-awesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/resources/sass/style.css" />
-    <entry file="file://$PROJECT_DIR$/resources/js/components/menuPrincipal.vue" />
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared.js" />
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared/DefaultAside.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/scripts/notify.js" />
     <entry file="file://$PROJECT_DIR$/resources/js/scripts/bootstrap.min.js" />
-    <entry file="uml://DATABASE/23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin</OriginalElement>
-          <nodes>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor</node>
-            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7035874439461881" x="760.0" y="236.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/scripts/index.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/scripts/alerts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3540">
@@ -564,16 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-964">
@@ -588,11 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -603,23 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -644,78 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="e#57#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,24 +551,347 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="-1980">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://23225d7f-6c07-4021-80f7-e7d7a77734d6/schema/cafetin/table/rol">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:cafetin</OriginalElement>
+          <nodes>
+            <node x="0.0" y="871.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.pagina</node>
+            <node x="693.5" y="219.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina</node>
+            <node x="580.25" y="0.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol</node>
+            <node x="708.5" y="426.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra</node>
+            <node x="202.0" y="173.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno</node>
+            <node x="0.0" y="173.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable</node>
+            <node x="76.75" y="449.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono</node>
+            <node x="304.5" y="426.5">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta</node>
+            <node x="500.875" y="173.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario</node>
+            <node x="356.375" y="657.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta</node>
+            <node x="479.5" y="415.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto</node>
+            <node x="864.5" y="196.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor</node>
+            <node x="608.875" y="657.0">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.proveedor">
+              <point x="42.5" y="-84.5" />
+              <point x="836.0" y="390.0" />
+              <point x="956.0" y="390.0" />
+              <point x="0.0" y="73.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno">
+              <point x="-38.75" y="-84.5" />
+              <point x="343.25" y="390.0" />
+              <point x="329.5" y="390.0" />
+              <point x="42.5" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto">
+              <point x="-53.0" y="-84.5" />
+              <point x="661.875" y="632.0" />
+              <point x="636.25" y="632.0" />
+              <point x="52.25" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra">
+              <point x="53.0" y="-84.5" />
+              <point x="767.875" y="632.0" />
+              <point x="793.5" y="632.0" />
+              <point x="0.0" y="84.5" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario">
+              <point x="38.75" y="-84.5" />
+              <point x="420.75" y="390.0" />
+              <point x="543.375" y="390.0" />
+              <point x="-42.5" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.venta">
+              <point x="-50.25" y="-84.5" />
+              <point x="406.625" y="632.0" />
+              <point x="382.0" y="632.0" />
+              <point x="0.0" y="84.5" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol">
+              <point x="0.0" y="-96.0" />
+              <point x="585.875" y="148.0" />
+              <point x="629.5" y="148.0" />
+              <point x="-49.25" y="61.5" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.responsable">
+              <point x="-45.5" y="-61.5" />
+              <point x="122.25" y="390.0" />
+              <point x="91.0" y="390.0" />
+              <point x="0.0" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.detalle_venta" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.producto">
+              <point x="50.25" y="-84.5" />
+              <point x="507.125" y="632.0" />
+              <point x="531.75" y="632.0" />
+              <point x="-52.25" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.compra" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.usuario">
+              <point x="-42.5" y="-84.5" />
+              <point x="751.0" y="390.0" />
+              <point x="628.375" y="390.0" />
+              <point x="42.5" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.alumno">
+              <point x="45.5" y="-61.5" />
+              <point x="213.25" y="390.0" />
+              <point x="244.5" y="390.0" />
+              <point x="-42.5" y="96.0" />
+            </edge>
+            <edge source="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol_pagina" target="23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.rol">
+              <point x="0.0" y="-50.0" />
+              <point x="769.0" y="148.0" />
+              <point x="728.0" y="148.0" />
+              <point x="49.25" y="61.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0324099722991689" x="212.46579017976927" y="839.4657901797693" />
+          <SelectedNodes>
+            <node>23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:cafetin.abono</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:securePay">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>23225d7f-6c07-4021-80f7-e7d7a77734d6.SCHEMA:securePay</OriginalElement>
+          <nodes>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.detalle_compra</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.venta</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.users</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.compra</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.rol_pagina</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.producto</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.bono</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.rol</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.pagina</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.alumno</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.detalle_venta</node>
+            <node x="" y="">23225d7f-6c07-4021-80f7-e7d7a77734d6.TABLE:securePay.proveedor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1270270270270268" x="372.6653197336031" y="1403.3285371702639" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/perfil.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#57#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/usuario/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#23#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/vue/shared/inicio.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="212">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#b-card#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b-card#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b-card#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b-card#0;n#b-cols#2;n#b-row#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/usuario/perfil.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vue/shared/encabezado.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#b-img#0;n#template#0;n#b-nav-item-dropdown#0;n#b-navbar-nav#0;n#AppHeader#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
