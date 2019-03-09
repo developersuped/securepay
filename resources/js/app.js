@@ -23,10 +23,10 @@ callHttp('/menu',{}).then(data=>{
             linkExactActiveClass: "active",
             routes: data.rutas.routes
         }),
-        data:()=>({
+        data:{
             menu:data.menu,
             user:data.user
-        })
+        }
     });
 });
 

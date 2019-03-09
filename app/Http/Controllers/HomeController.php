@@ -56,7 +56,7 @@ class HomeController extends Controller
                     $rutas['routes'][]=[
                         'path'=>$row->url,
                         'component'=>[
-                            "template"=>$row->template
+                            "template"=>"<$row->template></$row->template>"
                         ]
                     ];
 

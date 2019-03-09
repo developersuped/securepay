@@ -1,6 +1,6 @@
 <template>
     <b-row>
-        <b-cols class="ml-md-auto">
+        <b-col class="ml-md-auto">
             <b-card
                     title="Alumnos"
                     img-src="https://picsum.photos/600/300/?image=25"
@@ -15,9 +15,9 @@
 
                 <b-button href="#" variant="primary">Go somewhere</b-button>
             </b-card>
-        </b-cols>
+        </b-col>
 
-        <b-cols class="ml-md-auto">
+        <b-col class="ml-md-auto">
             <b-card
                     title="Productos"
                     img-src="https://picsum.photos/600/300/?image=25"
@@ -32,9 +32,9 @@
 
                 <b-button href="#" variant="primary">Go somewhere</b-button>
             </b-card>
-        </b-cols>
+        </b-col>
 
-        <b-cols class="ml-md-auto">
+        <b-col class="ml-md-auto">
             <b-card
                     title="Proveedores"
                     img-src="https://picsum.photos/600/300/?image=25"
@@ -49,7 +49,7 @@
 
                 <b-button href="#" variant="primary">Go somewhere</b-button>
             </b-card>
-        </b-cols>
+        </b-col>
     </b-row>
 </template>
 

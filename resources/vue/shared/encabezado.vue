@@ -83,9 +83,9 @@
             nav: {},
             user:''
         },
-        data() {
+        data:()=>( {
 
-        },
+        }),
         methods:{
             salir(){
                 callHttp('/logout',{});
