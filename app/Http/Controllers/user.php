@@ -6,9 +6,12 @@ use Illuminate\Http\Request;
 use App\models\usuario;
 use Illuminate\Support\Facades\Auth;
 use Mockery\Exception;
+use Illuminate\Support\Facades\DB;
 
 class user extends Controller
 {
+
+
     public function registrar(Request $r){
         try{
 
@@ -49,6 +52,26 @@ class user extends Controller
                 'mensaje'=>$e->getMessage(),
                 'Line'=>$e->getLine(),
                 'file'=>$e->getFile()
+            ];
+        }
+    }
+
+    public function getUsers(Request $r){
+        try{
+            $user=Auth::user();
+
+            $sql="select u.codigo, name, lastname, email, direccion, edad, dui, r.nombre rol from users u join rol r on u.rol = r.codigo where r.empresa=?;";
+
+            $data=DB::select($sql, [$user->empresa]);
+
+            return [
+                'codigo'=>200,
+                'data'=>$data
+            ];
+        }catch (\Exception $e){
+            return [
+                'codigo'=>500,
+                'mensaje'=>$e->getMessage()
             ];
         }
     }

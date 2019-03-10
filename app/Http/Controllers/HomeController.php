@@ -37,8 +37,8 @@ class HomeController extends Controller
         try{
 
             $user=Auth::user();
-            $sql="select distinct p.codigo, p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo = rp.pagina join rol r on rp.rol = r.codigo where rol=? and p.estado=1 and p.padre is null;";
-            $data=DB::select($sql,[$user->rol]);
+            $sql="select distinct p.codigo, p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo = rp.pagina join rol r on rp.rol = r.codigo where rol=? and r.estado=1 and p.estado=1 and p.empresa=? and  p.padre is null;";
+            $data=DB::select($sql,[$user->rol, $user->empresa]);
 
             foreach ($data as $h){
 
@@ -49,7 +49,7 @@ class HomeController extends Controller
                     ]
                 ];
 
-                $hijos=DB::select('select p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo =rp.pagina join rol r on r.codigo=rp.rol where padre=? and p.estado=1 and r.codigo=?;',[$h->codigo, Auth::id()]);
+                $hijos=DB::select('select p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo = rp.pagina join rol r on r.codigo = rp.rol where padre=? and p.estado = 1 and r.codigo = ? and r.estado=1 and p.empresa=?;',[$h->codigo, Auth::id(), $user->empresa]);
 
                 foreach ($hijos as $row){
 
