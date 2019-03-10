@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01b844ee-e4f7-4ebd-bb6d-cfbb7098f5cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/vue/admin/usuarios.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/23225d7f-6c07-4021-80f7-e7d7a77734d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/23225d7f-6c07-4021-80f7-e7d7a77734d6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/vue/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vue/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
-    </list>
+    <list default="true" id="01b844ee-e4f7-4ebd-bb6d-cfbb7098f5cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console_1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="260" column="137" selection-start-line="260" selection-end-line="260" selection-end-column="137" />
+            <state relative-caret-position="278">
+              <caret line="260" column="40" selection-end-line="260" selection-end-column="137" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/vue/admin/usuarios.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
@@ -336,18 +326,17 @@
       <workItem from="1552100175956" duration="220000" />
       <workItem from="1552100423174" duration="8354000" />
       <workItem from="1552165173353" duration="4337000" />
-      <workItem from="1552185031848" duration="11727000" />
+      <workItem from="1552185031848" duration="11943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94247000" />
+    <option name="totallyTimeSpent" value="94463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="34" width="1372" height="737" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2931818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2931818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -362,7 +351,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.31758958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.31758958" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.2801303" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -856,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="260" column="137" selection-start-line="260" selection-end-line="260" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -901,6 +883,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23225d7f-6c07-4021-80f7-e7d7a77734d6/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="260" column="40" selection-end-line="260" selection-end-column="137" />
         </state>
       </provider>
     </entry>
