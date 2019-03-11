@@ -49,7 +49,7 @@ class HomeController extends Controller
                     ]
                 ];
 
-                $hijos=DB::select('select p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo = rp.pagina join rol r on r.codigo = rp.rol where padre=? and p.estado = 1 and r.codigo = ? and r.estado=1 and p.empresa=?;',[$h->codigo, Auth::id(), $user->empresa]);
+                $hijos=DB::select('select p.nombre name, url, icono icon, template from pagina p join rol_pagina rp on p.codigo = rp.pagina join rol r on r.codigo = rp.rol where padre=? and p.estado = 1 and r.codigo = ? and r.estado=1 and p.empresa=?;',[$h->codigo, $user->rol, $user->empresa]);
 
                 foreach ($hijos as $row){
 

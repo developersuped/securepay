@@ -26,3 +26,26 @@ Route::post('/menu', 'HomeController@menu');
 Route::get('/salir', 'LoginController@salir');
 
 Route::post('/perfil', 'user@perfil');
+
+Route::prefix('producto')->group(function () {
+    Route::post('/get/', 'catalogo\\producto@index');
+    Route::post('/getData/', 'catalogo\\producto@getData');
+    Route::post('/guadar/', 'catalogo\\producto@registrar');
+});
+
+Route::prefix('productoEstados')->group(function () {
+    Route::post('/get/', 'catalogo\\producto@index');
+    Route::post('/guadar/', 'catalogo\\producto@registrar');
+});
+
+Route::prefix('proveedor')->group(function () {
+    Route::post('/get/', 'catalogo\\proveedorController@index');
+    Route::post('/guardar/', 'catalogo\\proveedorController@registrar');
+    Route::post('/eliminar/', 'catalogo\\proveedorController@eliminar');
+});
+
+Route::prefix('categoria')->group(function () {
+    Route::post('/get/', 'catalogo\\categoriaController@index');
+    Route::post('/guardar/', 'catalogo\\categoriaController@registrar');
+    Route::post('/eliminar/', 'catalogo\\categoriaController@eliminar');
+});

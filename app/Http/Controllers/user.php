@@ -10,7 +10,27 @@ use Illuminate\Support\Facades\DB;
 
 class user extends Controller
 {
+    public function getData(){
+        try{
+            $user=Auth::user();
 
+            $sql_roles="select codigo value, nombre text from rol where empresa=? and estado=1";
+
+            $roles=DB::select($sql_roles, [$user->empresa]);
+
+            return [
+                'codigo'=>200,
+                'roles'=>$roles
+            ];
+
+
+        }catch (Exception $e){
+            return [
+                'codigo'=>500,
+                'mensaje'=>$e->getMessage()
+            ];
+        }
+    }
 
     public function registrar(Request $r){
         try{
