@@ -5,7 +5,7 @@
                 <b-button variant="primary" size="sm" v-b-modal.new>Nuevo</b-button>
             </b-card-header>
             <b-card-body>
-                <b-table :items="productos" :fields="fields" :small="sm">
+                <b-table :items="productos" :fields="fields" :small="sm" responsive>
                     <template slot="opciones" slot-scope="row">
                         <b-button-group>
                             <b-button size="sm" variant="warning">Editar</b-button>
@@ -22,14 +22,14 @@
                     <b-form-group
                             label="Correlativo"
                             label-for="correlativo">
-                        <b-form-input id="correlativo" type="text"></b-form-input>
+                        <b-form-input id="correlativo" v-model="correlativo" type="text"></b-form-input>
                     </b-form-group>
                 </b-col>
                 <b-col>
                     <b-form-group
                             label="Nombre"
                             label-for="nombre">
-                        <b-form-input id="nombre" type="text"></b-form-input>
+                        <b-form-input id="nombre" v-model="nombre" type="text"></b-form-input>
                     </b-form-group>
                 </b-col>
             </b-row>
@@ -38,7 +38,7 @@
                     <b-form-group
                             label="Descripcion"
                             label-for="descricion">
-                        <b-form-input id="descricion" type="text"></b-form-input>
+                        <b-form-input id="descricion" v-model="descricion" type="text"></b-form-input>
                     </b-form-group>
                 </b-col>
                 <b-col>
@@ -54,7 +54,7 @@
                     <b-form-group
                             label="Precio Minimo"
                             label-for="precio">
-                        <b-form-input id="precio" type="number"></b-form-input>
+                        <b-form-input id="precio" v-model="precio" type="number"></b-form-input>
                     </b-form-group>
                 </b-col>
                 <b-col>
@@ -65,8 +65,6 @@
                     </b-form-group>
                 </b-col>
             </b-row>
-
-
         </b-modal>
 
     </div>
@@ -84,8 +82,8 @@
             /*****************/
             codigo:null,
             correlativo: null,
-            producto: null,
-            descripcion: null,
+            descricion:null,
+            nombre: null,
             categoria: null,
             precio:null,
             proveedor:null,
@@ -103,8 +101,11 @@
                 });
             },
             guardar(){
-                callHttp('/producto/guadar/',{
-
+                callHttp('/producto/guadar/', {
+                    codigo:this.codigo,
+                    nombre: this.nombre,
+                    descricion:this.descricion,
+                    categoria: this.categoria,
                 }).then(response=>{
                     this.getData();
                     console.log(response);

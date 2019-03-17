@@ -69,9 +69,8 @@ class producto extends Controller
             }else{
                 $pruducto=mProducto::find($r->codigo);
             }
-
             $pruducto->nombre=$r->nombre;
-            $pruducto->descripcion=$r->descripcion;
+            $pruducto->descripcion=$r->descricion;
             $pruducto->categoria=$r->categoria;
             $pruducto->estado=1;
             $pruducto->save();

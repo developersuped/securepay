@@ -27,7 +27,13 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('index');
+        $user=Auth::user();
+
+        if($user->rol===3){
+            return view('welcome');
+        }else{
+            return view('index');
+        }
     }
 
 
@@ -81,7 +87,8 @@ class HomeController extends Controller
                 'codigo'=>200,
                 'menu'=>$menu,
                 'rutas'=>$rutas,
-                'user'=>$user->name
+                'user'=>$user->name,
+                'rol'=>$user->rol
             ];
         }catch (Exception $e){
 

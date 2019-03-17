@@ -5,9 +5,11 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import BootstrapVue from 'bootstrap-vue';
-import VueRouter from 'vue-router'
+import VueRouter from 'vue-router';
+import VueCarousel from '@chenfengyuan/vue-carousel';
 
 Vue.use(VueRouter);
+Vue.component(VueCarousel.name, VueCarousel);
 
 Vue.use(BootstrapVue);
 
@@ -25,7 +27,8 @@ callHttp('/menu',{}).then(data=>{
         }),
         data:{
             menu:data.menu,
-            user:data.user
+            user:data.user,
+            rol:data.rol
         }
     });
 });

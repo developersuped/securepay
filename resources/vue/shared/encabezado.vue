@@ -2,16 +2,26 @@
     <div class="app">
         <AppHeader fixed>
             <SidebarToggler class="d-lg-none" display="md" mobile/>
-            <b-link class="navbar-brand" to="#">
-                <img class="navbar-brand-full" src="../../img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
-                <img class="navbar-brand-minimized" src="../../img/brand/sygnet.svg" width="30" height="30"
+                <b-link class="navbar-brand" to="#">
+                    <img class="navbar-brand-full" src="../../img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
+                    <img class="navbar-brand-minimized" src="../../img/brand/sygnet.svg" width="30" height="30"
                      alt="CoreUI Logo">
-            </b-link>
-            <SidebarToggler class="d-md-down-none" display="lg"/>
+                </b-link>
+
+                <SidebarToggler v-if="rol!==3" class="d-md-down-none" display="lg"/>
+
+                <b-navbar-nav class="d-md-down-none" v-if="rol==3">
+                    <b-nav-item class="px-3" to="/">Inicio</b-nav-item>
+                    <b-nav-item class="px-3" to="/tienda" exact>Tienda</b-nav-item>
+                    <b-nav-item class="px-3" to="/categorias">Categorias</b-nav-item>
+                </b-navbar-nav>
+
             <b-navbar-nav class="ml-auto">
+                <b-nav-item><i class="fa fa-cart-plus fa-lg " @click="prueba"></i></b-nav-item>
                 <b-nav-item-dropdown right>
                     <template slot="button-content">
-                        <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;" alt="Center image" rounded="circle"/>
+                        <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;"
+                               alt="Center image" rounded="circle"/>
                         <em>{{user}}</em></template>
                     <b-dropdown-item @click="verperfil()">Perfil</b-dropdown-item>
                     <b-dropdown-item href="#" @click="salir">Salir</b-dropdown-item>
@@ -19,13 +29,15 @@
             </b-navbar-nav>
         </AppHeader>
         <div class="app-body">
-            <AppSidebar fixed>
-                <SidebarHeader/>
-                <SidebarForm/>
-                <SidebarNav :navItems="nav"></SidebarNav>
-                <SidebarFooter/>
-                <SidebarMinimizer/>
-            </AppSidebar>
+             <span v-if="rol!==3">
+                <AppSidebar fixed>
+                    <SidebarHeader/>
+                    <SidebarForm/>
+                    <SidebarNav :navItems="nav"></SidebarNav>
+                    <SidebarFooter/>
+                    <SidebarMinimizer/>
+                </AppSidebar>
+             </span>
             <main class="main">
                 <div class="container-fluid">
                     <div style="margin-top:15px;">
@@ -81,19 +93,24 @@
         },
         props: {
             nav: {},
-            user:''
+            user: '',
+            rol:null
         },
-        data:()=>( {
-
-        }),
-        methods:{
-            salir(){
-                callHttp('/logout',{});
+        data: () => ({}),
+        methods: {
+            salir() {
+                callHttp('/logout', {});
                 window.location.replace("/");
             },
-            verperfil(){
+            verperfil() {
                 this.$router.push('perfil');
+            },
+            prueba(){
+              alert("listo");
             }
         },
+        mounted() {
+            console.log(this.rol);
+        }
     }
 </script>
