@@ -45,7 +45,7 @@ class HomeController extends Controller
                 $rutas['routes'][]=[
                     'path'=>$h->url,
                     'component'=>[
-                        "template"=>"<$h->template></$h->template>"
+                        "template"=>"<$h->template ref='".$h->template."'></$h->template>"
                     ]
                 ];
 
@@ -56,7 +56,7 @@ class HomeController extends Controller
                     $rutas['routes'][]=[
                         'path'=>$row->url,
                         'component'=>[
-                            "template"=>"<$row->template></$row->template>"
+                            "template"=>"<$row->template ref='".$row->template."'></$row->template>"
                         ]
                     ];
 

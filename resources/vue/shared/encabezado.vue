@@ -18,7 +18,7 @@
                 </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
-                <b-nav-item @click="prueba" class="mr-2">Carrito<i class="fa fa-cart-plus fa-lg " ></i></b-nav-item>
+                <b-nav-item @click="carrito()" class="mr-2">Carrito<i class="fa fa-cart-plus fa-lg " ></i></b-nav-item>
                 <b-nav-item-dropdown right>
                     <template slot="button-content">
                         <span class="ml-2">
@@ -43,8 +43,8 @@
                 </AppSidebar>
              </span>
             <main class="main">
-                <b-container :fluid="fuild">
-                    <div style="margin-top:15px;">
+                <b-container :fluid="fuild" class="h-100">
+                    <div style="margin-top:15px;" class="h-100">
                         <router-view ref="rutas"></router-view>
                     </div>
                 </b-container>
@@ -112,8 +112,8 @@
             verperfil() {
                 this.$router.push('perfil');
             },
-            prueba(){
-              alert("listo");
+            carrito(){
+                this.$router.push("carrito");
             }
         },
         mounted() {
