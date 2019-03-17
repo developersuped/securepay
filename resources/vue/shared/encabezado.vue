@@ -13,7 +13,8 @@
                 <b-navbar-nav class="d-md-down-none" v-if="rol==3">
                     <b-nav-item class="px-3" to="/">Inicio</b-nav-item>
                     <b-nav-item class="px-3" to="/tienda" exact>Tienda</b-nav-item>
-                    <b-nav-item class="px-3" to="/categorias">Categorias</b-nav-item>
+                    <b-nav-item class="px-3" to="/categorias" exact>Categorias</b-nav-item>
+                    <b-nav-item class="px-3" to="/nosotros" exact>Quienes Somos</b-nav-item>
                 </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
