@@ -11,7 +11,7 @@
 </head>
 <body>
 <div id="app" style="background-color: #C6C6C6">
-    <pagina></pagina>
+    <pagina :user="user"> </pagina>
     {{--<notifications group="noty">
     </notifications>--}}
 </div>

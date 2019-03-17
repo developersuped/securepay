@@ -17,14 +17,17 @@
                 </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
-                <b-nav-item><i class="fa fa-cart-plus fa-lg " @click="prueba"></i></b-nav-item>
+                <b-nav-item @click="prueba" class="mr-2">Carrito<i class="fa fa-cart-plus fa-lg " ></i></b-nav-item>
                 <b-nav-item-dropdown right>
                     <template slot="button-content">
-                        <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;"
-                               alt="Center image" rounded="circle"/>
-                        <em>{{user}}</em></template>
-                    <b-dropdown-item @click="verperfil()">Perfil</b-dropdown-item>
-                    <b-dropdown-item href="#" @click="salir">Salir</b-dropdown-item>
+                        <span class="ml-2">
+                            <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;"
+                                   alt="Center image" rounded="circle"/>
+                        </span>
+                        <em>{{user}}</em>
+                    </template>
+                    <b-dropdown-item href="#">Perfil</b-dropdown-item>
+                    <b-dropdown-item @click="salir">Salir</b-dropdown-item>
                 </b-nav-item-dropdown>
             </b-navbar-nav>
         </AppHeader>
@@ -39,11 +42,11 @@
                 </AppSidebar>
              </span>
             <main class="main">
-                <div class="container-fluid">
+                <b-container :fluid="fuild">
                     <div style="margin-top:15px;">
                         <router-view ref="rutas"></router-view>
                     </div>
-                </div>
+                </b-container>
             </main>
         </div>
         <TheFooter>
@@ -96,10 +99,13 @@
             user: '',
             rol:null
         },
-        data: () => ({}),
+        data: () => ({
+            fuild:true
+        }),
         methods: {
             salir() {
-                callHttp('/logout', {});
+                callHttp('/logout', {}).then(response=>{
+                });
                 window.location.replace("/");
             },
             verperfil() {
@@ -111,6 +117,9 @@
         },
         mounted() {
             console.log(this.rol);
+            if(this.rol==3){
+                this.fuild=false;
+            }
         }
     }
 </script>

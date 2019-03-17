@@ -27,13 +27,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        $user=Auth::user();
-
-        if($user->rol===3){
-            return view('welcome');
-        }else{
-            return view('index');
-        }
+        return view('index');
     }
 
 
