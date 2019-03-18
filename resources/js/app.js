@@ -7,6 +7,8 @@ window.Vue = require('vue');
 import BootstrapVue from 'bootstrap-vue';
 import VueRouter from 'vue-router';
 import VueCarousel from '@chenfengyuan/vue-carousel';
+import swal from 'sweetalert';
+
 
 Vue.use(VueRouter);
 Vue.component(VueCarousel.name, VueCarousel);

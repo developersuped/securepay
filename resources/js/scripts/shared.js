@@ -1,4 +1,12 @@
-
+window.alerta=(mensaje, icono)=>{
+    swal({
+        title: "AgroWeb",
+        text: mensaje,
+        icon: icono,
+        button: "Ok",
+        timer: 2000,
+    });
+};
 
 window.callHttp = (url, data) => {
     return new Promise((resolve, reject) => {
@@ -12,6 +20,9 @@ window.callHttp = (url, data) => {
             },
             success: (response) => {
                 if (response.codigo === 200) {
+                    if(response.mensaje!=null){
+                        alerta(response.mensaje, 'success')
+                    }
                     delete response.codigo;
                     resolve(response);
                 } else {

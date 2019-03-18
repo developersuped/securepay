@@ -8,14 +8,14 @@
                 <b-table :items="productos" :fields="fields" :small="sm" responsive>
                     <template slot="opciones" slot-scope="row">
                         <b-button-group>
-                            <b-button size="sm" variant="warning">Editar</b-button>
-                            <b-button size="sm" variant="danger">Desactivar</b-button>
+                            <b-button size="sm" variant="warning" @click="editar(row.item)">Editar</b-button>
+                            <b-button size="sm" variant="danger" @click="eliminar(row.item)">Eliminar</b-button>
                         </b-button-group>
                     </template>
                 </b-table>
             </b-card-body>
         </b-card>
-        <b-modal id="new" title="Registrar Producto" @ok="guardar">
+        <b-modal id="new" title="Registrar Producto" ref="editProducto" @ok="guardar">
             <b-row>
 
                 <b-col>
@@ -49,22 +49,6 @@
                     </b-form-group>
                 </b-col>
             </b-row>
-            <b-row>
-                <b-col>
-                    <b-form-group
-                            label="Precio Minimo"
-                            label-for="precio">
-                        <b-form-input id="precio" v-model="precio" type="number"></b-form-input>
-                    </b-form-group>
-                </b-col>
-                <b-col>
-                    <b-form-group
-                            label="Proveedor"
-                            label-for="proveedor">
-                        <b-form-select id="proveedor" v-model="proveedor" :options="proveedores"/>
-                    </b-form-group>
-                </b-col>
-            </b-row>
         </b-modal>
 
     </div>
@@ -76,7 +60,7 @@
         data: () => ({
             sm: true,
             productos: [],
-            fields: ['codigo', 'correlativo', 'producto', 'descripcion', 'categoria', 'precio_min', 'existencia', 'proveedor', 'opciones'],
+            fields: ['codigo', 'correlativo', 'nombre', 'descripcion', 'categoria',  'opciones'],
             proveedores: [],
             categorias: [],
             /*****************/
@@ -103,12 +87,28 @@
             guardar(){
                 callHttp('/producto/guadar/', {
                     codigo:this.codigo,
+                    correlativo:this.correlativo,
                     nombre: this.nombre,
                     descricion:this.descricion,
                     categoria: this.categoria,
                 }).then(response=>{
                     this.getData();
                     console.log(response);
+                });
+            },
+            editar(row){
+                this.codigo=row.codigo;
+                this.correlativo=row.correlativo;
+                this.nombre=row.nombre;
+                this.descricion=row.descripcion;
+                this.categoria=row.categoria_ref;
+                this.$refs.editProducto.show()
+            },
+            eliminar(row){
+                callHttp('/producto/eliminar/', {
+                  codigo: row.codigo
+                }).then(()=>{
+                    this.getProductos();
                 });
             }
         },

@@ -13,11 +13,9 @@ class proveedorController extends Controller
 {
     public function index(){
         try{
-            $user=Auth::user();
+            $sql="select codigo, nombre, nit, direccion, telefono from proveedor where estado=1";
 
-            $sql="select codigo, nombre, nit, direccion, telefono, representante from proveedor where estado=1 and empresa=?;";
-
-            $data=DB::select($sql,[$user->empresa]);
+            $data=DB::select($sql);
 
             return [
                 'codigo'=>200,
@@ -34,9 +32,6 @@ class proveedorController extends Controller
 
     public function registrar(Request $r){
         try{
-
-            $user=Auth::user();
-
             if($r->codigo==null){
                 $proveedor=new proveedores();
             }else{
@@ -47,8 +42,6 @@ class proveedorController extends Controller
             $proveedor->nit=$r->nit;
             $proveedor->direccion=$r->direccion;
             $proveedor->telefono=$r->telefono;
-            $proveedor->representante=$r->representante;
-            $proveedor->empresa=$user->empresa;
             $proveedor->estado=1;
             $proveedor->save();
 

@@ -16,9 +16,9 @@ class categoriaController extends Controller
         try{
             $user=Auth::user();
 
-            $sql="select codigo, nombre, descripcion from productos_categoria where estado=1 and empresa=?;";
+            $sql="select codigo, nombre, descripcion from productos_categoria where estado=1";
 
-            $data=DB::select($sql,[$user->empresa]);
+            $data=DB::select($sql);
 
             return [
                 'codigo'=>200,
@@ -35,12 +35,8 @@ class categoriaController extends Controller
 
     public function registrar(Request $r){
         try{
-
-            $user=Auth::user();
-
             if($r->codigo==null){
                 $categoria=new categorias();
-                $categoria->empresa=$user->empresa;
             }else{
                 $categoria=categorias::find($r->codigo);
             }

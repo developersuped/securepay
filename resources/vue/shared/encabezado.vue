@@ -3,37 +3,44 @@
         <AppHeader fixed>
             <SidebarToggler class="d-lg-none" display="md" mobile/>
                 <b-link class="navbar-brand" to="#">
-                    <img class="navbar-brand-full" src="../../img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
-                    <img class="navbar-brand-minimized" src="../../img/brand/sygnet.svg" width="30" height="30"
-                     alt="CoreUI Logo">
+                    <img class="navbar-brand-full" src="../../img/brand/agroweb.jpeg" width="100" height="35" alt="CoreUI Logo">
+                    <img class="navbar-brand-minimized" src="/resources/img/brand/agroweb.jpeg" width="30" height="30"
+                         alt="CoreUI Logo">
                 </b-link>
 
-                <SidebarToggler v-if="rol!==3" class="d-md-down-none" display="lg"/>
+                <SidebarToggler v-if="rol!==3 && rol!==4" class="d-md-down-none" display="lg"/>
 
-                <b-navbar-nav class="d-md-down-none" v-if="rol==3">
+                <b-navbar-nav class="d-md-down-none" v-if="rol===3 || rol===4">
                     <b-nav-item class="px-3" to="/">Inicio</b-nav-item>
                     <b-nav-item class="px-3" to="/tienda" exact>Tienda</b-nav-item>
                     <b-nav-item class="px-3" to="/categorias" exact>Categorias</b-nav-item>
+                    <b-nav-item class="px-3" to="/publicar" exact v-if="rol===4">Publicar</b-nav-item>
                     <b-nav-item class="px-3" to="/nosotros" exact>Quienes Somos</b-nav-item>
                 </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
-                <b-nav-item @click="carrito()" class="mr-2">Carrito<i class="fa fa-cart-plus fa-lg " ></i></b-nav-item>
-                <b-nav-item-dropdown right>
-                    <template slot="button-content">
-                        <span class="ml-2">
+                <b-row align-v="center" class="mr-3">
+                    <b-col cols="5">
+                        <b-nav-item @click="carrito()" class="mr-2">Carrito<i class="fa fa-cart-plus fa-lg " ></i></b-nav-item>
+                    </b-col>
+                    <b-col cols="6" class="pl-0 pr-0">
+                        <b-nav-item-dropdown right>
+                            <template slot="button-content">
+                        <span class="ml-2 mr-2">
                             <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;"
                                    alt="Center image" rounded="circle"/>
                         </span>
-                        <em>{{user}}</em>
-                    </template>
-                    <b-dropdown-item href="#">Perfil</b-dropdown-item>
-                    <b-dropdown-item @click="salir">Salir</b-dropdown-item>
-                </b-nav-item-dropdown>
+                                <em>{{user}}   </em>
+                            </template>
+                            <b-dropdown-item @click="verperfil()">Perfil</b-dropdown-item>
+                            <b-dropdown-item @click="salir">Salir</b-dropdown-item>
+                        </b-nav-item-dropdown>
+                    </b-col>
+                </b-row>
             </b-navbar-nav>
         </AppHeader>
         <div class="app-body">
-             <span v-if="rol!==3">
+             <span v-if="rol===2 || rol===1">
                 <AppSidebar fixed>
                     <SidebarHeader/>
                     <SidebarForm/>
@@ -43,7 +50,7 @@
                 </AppSidebar>
              </span>
             <main class="main">
-                <b-container :fluid="fuild" class="h-100">
+                <b-container :fluid="fuild" style="height: calc(100% - 55px);">
                     <div style="margin-top:15px;" class="h-100">
                         <router-view ref="rutas"></router-view>
                     </div>
@@ -118,7 +125,7 @@
         },
         mounted() {
             console.log(this.rol);
-            if(this.rol==3){
+            if(this.rol===3 || this.rol===4){
                 this.fuild=false;
             }
         }

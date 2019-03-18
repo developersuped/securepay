@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 
 
+
 Route::post('/menu', 'HomeController@menu');
 
 
@@ -31,6 +32,7 @@ Route::prefix('producto')->group(function () {
     Route::post('/get/', 'catalogo\\producto@index');
     Route::post('/getData/', 'catalogo\\producto@getData');
     Route::post('/guadar/', 'catalogo\\producto@registrar');
+    Route::post('/eliminar/', 'catalogo\\producto@eliminar');
 });
 
 Route::prefix('productoEstados')->group(function () {

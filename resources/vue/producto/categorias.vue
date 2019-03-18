@@ -72,6 +72,7 @@
             },
             guardar() {
                 callHttp('/categoria/guardar/', {
+                    codigo:this.codigo,
                     nombre: this.nombre,
                     descripcion: this.descripcion
                 }).then(response => {

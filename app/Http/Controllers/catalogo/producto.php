@@ -15,10 +15,9 @@ class producto extends Controller
     public function index(){
         try{
 
-            $user=Auth::user();
-            $sql="select codigo, nombre, descripcion, categoria, empresa from producto where estado=1  and  empresa=?;";
+            $sql="select p.codigo, p.correlativo, p.nombre, p.descripcion, pc.nombre categoria, pc.codigo categoria_ref from producto p join productos_categoria pc on p.categoria = pc.codigo where pc.estado=1 and p.estado=1;";
 
-            $data=DB::select($sql, [$user->empresa]);
+            $data=DB::select($sql);
 
 
             return [
@@ -36,15 +35,13 @@ class producto extends Controller
 
     public function getData(){
         try{
-            $user=Auth::user();
+            $sql_proveedores="select codigo value, nombre text from proveedor where estado=1";
 
-            $sql_proveedores="select codigo value, nombre text from proveedor where estado=1 and empresa=?;";
+            $sql_categoria="select codigo value, nombre text from productos_categoria where estado=1;";
 
-            $sql_categoria="select codigo value, nombre text from productos_categoria where estado=1 and empresa=?;";
+            $data_proveedores=DB::select($sql_proveedores);
 
-            $data_proveedores=DB::select($sql_proveedores, [$user->empresa]);
-
-            $data_categoria=DB::select($sql_categoria, [$user->empresa]);
+            $data_categoria=DB::select($sql_categoria);
 
             return [
                 'codigo'=>200,
@@ -61,14 +58,13 @@ class producto extends Controller
 
     public function registrar(Request $r){
         try{
-            $user=Auth::user();
 
             if($r->codigo==null){
                 $pruducto=new mProducto();
-                $pruducto->empresa=$user->empresa;
             }else{
                 $pruducto=mProducto::find($r->codigo);
             }
+            $pruducto->correlativo=$r->correlativo;
             $pruducto->nombre=$r->nombre;
             $pruducto->descripcion=$r->descricion;
             $pruducto->categoria=$r->categoria;
@@ -80,6 +76,26 @@ class producto extends Controller
                 'mensaje'=>'Registrado Correcatmente'
             ];
 
+        }catch (Exception $e){
+            return [
+                'codigo'=>500,
+                'mensaje'=>$e->getMessage()
+            ];
+        }
+    }
+
+    public function eliminar(Request $r){
+        try{
+            $prodcuto=mProducto::find($r->codigo);
+
+            $prodcuto->estado=0;
+
+            $prodcuto->save();
+
+            return [
+                'codigo'=>200,
+                'mensaje'=>'Eliminado'
+            ];
         }catch (Exception $e){
             return [
                 'codigo'=>500,

@@ -38,11 +38,6 @@
                     label-for="telefono">
                 <b-form-input id="telefono" type="text" v-model="telefono"></b-form-input>
             </b-form-group>
-            <b-form-group
-                    label="Representate"
-                    label-for="representante">
-                <b-form-input id="representante" type="text" v-model="representante"></b-form-input>
-            </b-form-group>
         </b-modal>
     </div>
 
@@ -53,13 +48,12 @@
         name: "proveedores",
         data: () => ({
             items: [],
-            fields: ['nombre', 'nit', 'direccion', 'telefono', 'representante', 'opciones'],
+            fields: ['codigo', 'nombre', 'nit', 'direccion', 'telefono',  'opciones'],
             codigo:null,
             nombre: null,
             nit: null,
             direccion: null,
             telefono: null,
-            representante: null
         }),
         methods: {
             getData() {
@@ -73,8 +67,7 @@
                     nombre: this.nombre,
                     nit: this.nit,
                     direccion: this.direccion,
-                    telefono: this.telefono,
-                    representante: this.representante
+                    telefono: this.telefono
                 }).then(response => {
                     this.getData();
                     this.codigo=null;
