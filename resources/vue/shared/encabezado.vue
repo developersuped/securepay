@@ -27,12 +27,13 @@
                         <b-nav-item-dropdown right>
                             <template slot="button-content">
                         <span class="ml-2 mr-2">
-                            <b-img center src="https://picsum.photos/125/125/?image=58" style="width: 35px; float: left;"
+                            <b-img center src="/admin/user/avatar/get/1552964808it.jpg" style="width: 35px; float: left;"
                                    alt="Center image" rounded="circle"/>
                         </span>
                                 <em>{{user}}   </em>
                             </template>
                             <b-dropdown-item @click="verperfil()">Perfil</b-dropdown-item>
+                            <b-dropdown-item @click="porveer()" v-if="rol===4">Proveer</b-dropdown-item>
                             <b-dropdown-item @click="salir">Salir</b-dropdown-item>
                         </b-nav-item-dropdown>
                     </b-col>
@@ -105,10 +106,12 @@
         props: {
             nav: {},
             user: '',
-            rol:null
+            rol:null,
+            avatar:null
         },
         data: () => ({
-            fuild:true
+            fuild:true,
+            imagen:null
         }),
         methods: {
             salir() {
@@ -121,6 +124,15 @@
             },
             carrito(){
                 this.$router.push("carrito");
+            },
+            porveer(){
+                this.$router.push("proveer");
+            },
+            getAvatar(){
+                axios.get('/admin/user/avatar/get/1552964808it.jpg').then(response=>{
+                    this.imagen=response.data;
+                    //console.log(this.imagen);
+                });
             }
         },
         mounted() {
@@ -128,6 +140,8 @@
             if(this.rol===3 || this.rol===4){
                 this.fuild=false;
             }
+
+            this.getAvatar();
         }
     }
 </script>

@@ -9,6 +9,7 @@ use Mockery\Exception;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Http\Response;
 
 class user extends Controller
 {
@@ -23,6 +24,28 @@ class user extends Controller
                 'roles'=>$roles
             ];
 
+
+        }catch (Exception $e){
+            return [
+                'codigo'=>500,
+                'mensaje'=>$e->getMessage()
+            ];
+        }
+    }
+
+    public function getAvatar($filename){
+        try{
+
+            $user=Auth::user();
+
+            $avatar=$user->imagen;
+
+            $url = Storage::disk('user')->get($filename);
+            //$img=Storage::disk('user')->get($avatar);
+
+            $respuesta=Response($url, 200);
+
+            return $respuesta;
 
         }catch (Exception $e){
             return [
@@ -96,8 +119,13 @@ class user extends Controller
                 'codigo'=>200,
                 'data'=>[
                     'name'=>$user->name,
+                    'lastname'=>$user->lastname,
                     'email'=>$user->email,
-                    'image'=>$user->image
+                    'direccion'=>$user->direccion,
+                    'image'=>$user->imagen,
+                    'edad'=>$user->edad,
+                    'dui'=>$user->dui,
+                    'telefono'=>$user->telefono
                 ]
             ];
         }catch (Exception $e){

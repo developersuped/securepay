@@ -51,3 +51,6 @@ Route::prefix('categoria')->group(function () {
     Route::post('/guardar/', 'catalogo\\categoriaController@registrar');
     Route::post('/eliminar/', 'catalogo\\categoriaController@eliminar');
 });
+
+Route::post('proveer/get','catalogo\\proveer@index');
+Route::post('proveer/guardar','catalogo\\proveer@guardar');

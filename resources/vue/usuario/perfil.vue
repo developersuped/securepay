@@ -3,7 +3,7 @@
         <b-card-header class="text-center">
            <b-row>
                <b-col>
-                   <b-img center src="https://picsum.photos/125/125/?image=58" alt="Center image" rounded="circle"/>
+                   <b-img center :src="avatar" alt="Center image" style="width:125px;" rounded="circle"/>
                </b-col>
                <b-col>
                    <b-form-group
@@ -126,14 +126,21 @@
             edad: null,
             dui: null,
             telefono: null,
-            mainProps: { blank: true, blankColor: '#777', width: 75, height: 75, class: 'm1' }
+            mainProps: { blank: true, blankColor: '#777', width: 75, height: 75, class: 'm1' },
+            avatar:'/admin/user/avatar/get/',
         }),
         methods:{
             getData(){
               callHttp('/perfil',{}).then(response=>{
                   this.name=response.data.name;
+                  this.lastname=response.data.lastname;
                   this.email=response.data.email;
-                  this.image=response.data.image;
+                  this.avatar+=response.data.image;
+                  this.direccion=response.data.direccion;
+                  this.edad=response.data.edad;
+                  this.dui=response.data.dui;
+                  this.telefono=response.data.telefono;
+                  console.log(response.data);
               });
             },
             editar(){
