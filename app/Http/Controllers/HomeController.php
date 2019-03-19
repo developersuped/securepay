@@ -82,7 +82,8 @@ class HomeController extends Controller
                 'menu'=>$menu,
                 'rutas'=>$rutas,
                 'user'=>$user->name,
-                'rol'=>$user->rol
+                'rol'=>$user->rol,
+                'avatar'=>$user->imagen
             ];
         }catch (Exception $e){
 

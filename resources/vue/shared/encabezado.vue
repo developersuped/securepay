@@ -27,7 +27,7 @@
                         <b-nav-item-dropdown right>
                             <template slot="button-content">
                         <span class="ml-2 mr-2">
-                            <b-img center src="/admin/user/avatar/get/1552964808it.jpg" style="width: 35px; float: left;"
+                            <b-img center :src="av" style="width: 35px; float: left;"
                                    alt="Center image" rounded="circle"/>
                         </span>
                                 <em>{{user}}   </em>
@@ -111,7 +111,8 @@
         },
         data: () => ({
             fuild:true,
-            imagen:null
+            imagen:null,
+            av:'/admin/user/avatar/get/'
         }),
         methods: {
             salir() {
@@ -140,7 +141,7 @@
             if(this.rol===3 || this.rol===4){
                 this.fuild=false;
             }
-
+            this.av+=this.avatar;
             this.getAvatar();
         }
     }

@@ -147,14 +147,18 @@
                 this.edit=true;
             },
             subirFoto(){
-                var formData = new FormData();
-                //var imagefile = document.querySelector('#file');
-                formData.append("avatar", this.image);
-                axios.post('/admin/user/avatar', formData, {
-                    headers: {
-                        'Content-Type': 'multipart/form-data'
-                    }
-                })
+               if(this.image!==null){
+                   var formData = new FormData();
+                   //var imagefile = document.querySelector('#file');
+                   formData.append("avatar", this.image);
+                   axios.post('/admin/user/avatar', formData, {
+                       headers: {
+                           'Content-Type': 'multipart/form-data'
+                       }
+                   }).then(response=>{
+                       this.getData();
+                   });
+               }
             }
         },
         mounted() {

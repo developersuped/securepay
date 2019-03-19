@@ -30,7 +30,8 @@ callHttp('/menu',{}).then(data=>{
         data:{
             menu:data.menu,
             user:data.user,
-            rol:data.rol
+            rol:data.rol,
+            avatar: data.avatar
         }
     });
 });
