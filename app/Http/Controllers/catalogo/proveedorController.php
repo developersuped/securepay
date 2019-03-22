@@ -13,7 +13,7 @@ class proveedorController extends Controller
 {
     public function index(){
         try{
-            $sql="select codigo, nombre, nit, direccion, telefono from proveedor where estado=1";
+            $sql="select codigo, name, lastname, email, direccion, dui, telefono from users where rol=4 and estado=1;";
 
             $data=DB::select($sql);
 
@@ -30,33 +30,6 @@ class proveedorController extends Controller
         }
     }
 
-    public function registrar(Request $r){
-        try{
-            if($r->codigo==null){
-                $proveedor=new proveedores();
-            }else{
-                $proveedor=proveedores::find($r->codigo);
-            }
-
-            $proveedor->nombre=$r->nombre;
-            $proveedor->nit=$r->nit;
-            $proveedor->direccion=$r->direccion;
-            $proveedor->telefono=$r->telefono;
-            $proveedor->estado=1;
-            $proveedor->save();
-
-            return [
-                'codigo'=>200,
-                'mensaje'=>'Registrado Correctamente'
-            ];
-
-        }catch (Exception $e){
-            return [
-                'codigo'=>500,
-                'mensaje'=>$e->getMessage()
-            ];
-        }
-    }
 
     public function eliminar(Request $r){
         try{

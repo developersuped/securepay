@@ -54,3 +54,15 @@ Route::prefix('categoria')->group(function () {
 
 Route::post('proveer/get','catalogo\\proveer@index');
 Route::post('proveer/guardar','catalogo\\proveer@guardar');
+Route::post('proveer/producto/','catalogo\\proveer@getProductos');
+
+
+Route::prefix('publicacion')->group(function (){
+    Route::post('/crear/', 'catalogo\\publicacionController@registrar');
+});
+
+
+Route::post('/tienda/get/', 'catalogo\\tiendaController@index');
+
+Route::post('/car/add', 'catalogo\\tiendaController@carritoAdd');
+Route::post('/car/get', 'catalogo\\tiendaController@carritoget');

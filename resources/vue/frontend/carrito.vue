@@ -2,7 +2,7 @@
     <b-row align-self="center" class="h-100">
         <b-col cols="10">
             <b-list-group>
-                <b-list-group-item v-for="item in data" :key="item.id" class="mb-1">
+                <b-list-group-item v-for="item in data" :key="item.codigo" class="mb-1">
                     <elementcard :item="item"></elementcard>
                 </b-list-group-item>
             </b-list-group>
@@ -21,22 +21,18 @@
         name: "carrito",
         components: {Elementcard},
         data:()=>({
-            data:[
-                {di:1,
-                    img: 'http://www.astursantina.es/files/img/productos/tomates.jpg', info: {
-                    nombre: 'tomate', descripcion:'un alimento'
-                    }, opc:{
-                    eliminar: 'eliminar', guardar: 'guardar'
-                    },precio: 100},
-                {id:2,
-                    img: 'http://www.astursantina.es/files/img/productos/tomates.jpg', info: {
-                    nombre: 'tomate', descripcion:'un alimento'
-                    }, opc:{
-                    eliminar: 'eliminar', guardar: 'guardar'
-                    },precio: 100},
-            ]
+            data:[]
         }),
-
+        methods:{
+            getData(){
+                callHttp('/car/get/',{}).then(response=>{
+                    this.data=response.data;
+                });
+            }
+        },
+        mounted() {
+            this.getData();
+        }
     }
 </script>
 

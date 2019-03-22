@@ -127,10 +127,11 @@
             dui: null,
             telefono: null,
             mainProps: { blank: true, blankColor: '#777', width: 75, height: 75, class: 'm1' },
-            avatar:'/admin/user/avatar/get/',
+            avatar:null,
         }),
         methods:{
             getData(){
+                this.avatar='/admin/user/avatar/get/';
               callHttp('/perfil',{}).then(response=>{
                   this.name=response.data.name;
                   this.lastname=response.data.lastname;
@@ -140,7 +141,6 @@
                   this.edad=response.data.edad;
                   this.dui=response.data.dui;
                   this.telefono=response.data.telefono;
-                  console.log(response.data);
               });
             },
             editar(){

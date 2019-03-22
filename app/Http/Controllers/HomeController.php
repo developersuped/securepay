@@ -73,7 +73,7 @@ class HomeController extends Controller
             $rutas['routes'][]=[
                 'path'=>'/perfil',
                 'component'=>[
-                    'template'=>'<perfil></perfil>'
+                    'template'=>'<perfil ref="perfil"></perfil>'
                 ]
             ];
 

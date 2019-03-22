@@ -34,6 +34,7 @@
         "pace": "0.0.4",
         "simple-line-icons": "^2.4.1",
         "sweetalert": "^2.1.2",
+        "vue-img-preview": "^1.1.1",
         "vue-router": "^3.0.2"
     }
 }

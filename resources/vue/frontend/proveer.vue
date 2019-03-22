@@ -29,7 +29,7 @@
             items:[],
             producto:null,
             options:[],
-            fields:['codigo', 'producto', 'descricion', 'categoria']
+            fields:['correlativo', 'producto', 'descripcion', 'categoria']
         }),
         methods:{
             getData(){
@@ -41,7 +41,9 @@
             guardar(){
                 callHttp('proveer/guardar', {
                     producto: this.producto
-                })
+                }).then(response=>{
+                    this.getData();
+                });
             }
         },
         mounted() {

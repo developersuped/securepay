@@ -7,8 +7,10 @@ window.Vue = require('vue');
 import BootstrapVue from 'bootstrap-vue';
 import VueRouter from 'vue-router';
 import VueCarousel from '@chenfengyuan/vue-carousel';
+import {vueImgPreview} from 'vue-img-preview'
 import swal from 'sweetalert';
 
+Vue.component('vue-img-preview', vueImgPreview)
 
 Vue.use(VueRouter);
 Vue.component(VueCarousel.name, VueCarousel);

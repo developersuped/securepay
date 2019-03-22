@@ -10,45 +10,19 @@
     export default {
         name: "tienda",
         data: () => ({
-            publicaciones: [
-                {
-                    usuario: 'Roberto',
-                    producto: 'Tomates',
-                    cantidad: 25,
-                    precio: 100,
-                    descipcion: 'Tomates de los grandes'
-                },
-                {
-                    usuario: 'Roberto',
-                    producto: 'Tomates',
-                    cantidad: 25,
-                    precio: 100,
-                    descipcion: 'Tomates de los grandes'
-                },
-                {
-                    usuario: 'Roberto',
-                    producto: 'Tomates',
-                    cantidad: 25,
-                    precio: 100,
-                    descipcion: 'Tomates de los grandes'
-                },
-                {
-                    usuario: 'Roberto',
-                    producto: 'Tomates',
-                    cantidad: 25,
-                    precio: 100,
-                    descipcion: 'Tomates de los grandes'
-                },
-                {
-                    usuario: 'Roberto',
-                    producto: 'Tomates',
-                    cantidad: 25,
-                    precio: 100,
-                    descipcion: 'Tomates de los grandes'
-                }
-            ],
+            publicaciones: [],
 
-        })
+        }),
+        methods:{
+            getData(){
+                callHttp('/tienda/get/',{}).then(response=>{
+                    this.publicaciones=response.data;
+                });
+            }
+        },
+        mounted() {
+            this.getData();
+        }
     }
 </script>
 

@@ -8,7 +8,7 @@
                     <span>{{publicaciones.usuario}}</span>
                 </b-col>
                 <b-col cols="6" class="pr-0">
-                    <span>Agregar <i class="fa fa-cart-plus fa-lg "></i></span>
+                    <span @click="agregar(publicaciones.publicacion)">Agregar <i class="fa fa-cart-plus fa-lg "></i></span>
                 </b-col>
             </b-row>
         </b-card-header>
@@ -16,9 +16,10 @@
             <carousel :data="data" :controls="true"></carousel>
         </b-card-body>
         <b-card-footer footer-bg-variant="success">
-            <h3> {{publicaciones.producto}}</h3>
-            {{publicaciones.descipcion}}
-            ${{publicaciones.precio}}
+            <h3> {{publicaciones.titulo}}</h3>
+            {{publicaciones.detalle}}
+            Cantidad{{publicaciones.cantidad}}
+            ${{publicaciones.precio_venta}}
         </b-card-footer>
     </b-card>
 </template>
@@ -37,7 +38,11 @@
             ],
         }),
         methods:{
-
+            agregar(row){
+                callHttp('/car/add/', {
+                    publicacion: row
+                });
+            }
         }
     }
 </script>

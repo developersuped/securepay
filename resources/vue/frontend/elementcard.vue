@@ -1,19 +1,18 @@
 <template>
-    <b-row align-v="center">
+    <b-row align-v="center" class="w-100">
         <b-col cols="2">
-            <b-img style="width: 100px;" thumbnail fluid :src="item.img" alt="Image 1" />
+            {{item.name}}
         </b-col>
         <b-col cols="6">
-            <h6>{{item.info.nombre}}</h6>
-            <p class="text-muted">{{item.info.descripcion}}</p>
+            <h6>{{item.titulo}}</h6>
+            <p class="text-muted">{{item.detalle}}</p>
         </b-col>
         <b-col cols="2">
-            <b-link href="#">{{item.opc.eliminar}}</b-link>
-            <br>
-            <b-link href="#">{{item.opc.guardar}}</b-link>
+            <b-link href="#">Eliminar</b-link>
+
         </b-col>
         <b-col cols="2">
-            ${{item.precio}}
+            ${{item.precio_venta}}
         </b-col>
     </b-row>
 </template>
@@ -23,6 +22,9 @@
         name: "elementcard",
         props:{
             item:{}
+        },
+        mounted() {
+            console.log(this.item);
         }
     }
 </script>
